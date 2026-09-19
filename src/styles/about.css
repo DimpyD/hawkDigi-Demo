@@ -1,0 +1,1 @@
+.about{background:var(--panel);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}.about-copy{font-size:1.2rem}.about-copy p:last-child{margin-bottom:0}@media(max-width:767px){.about-copy{font-size:1.1rem}}

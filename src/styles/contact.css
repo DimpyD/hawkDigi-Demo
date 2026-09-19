@@ -1,0 +1,1 @@
+.contact{background:linear-gradient(115deg,#efb847,#ca8521);color:#101114}.contact-inner{display:flex;align-items:center;justify-content:space-between;gap:32px}.contact h2{color:#101114;margin:0;font-size:clamp(2rem,3vw,2.65rem)}.contact .button{padding:20px 30px}@media(max-width:575px){.contact-inner{align-items:flex-start;flex-direction:column}}
