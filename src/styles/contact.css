@@ -1,1 +1,58 @@
-.contact{background:linear-gradient(115deg,#efb847,#ca8521);color:#101114}.contact-inner{display:flex;align-items:center;justify-content:space-between;gap:32px}.contact h2{color:#101114;margin:0;font-size:clamp(2rem,3vw,2.65rem)}.contact .button{padding:20px 30px}@media(max-width:575px){.contact-inner{align-items:flex-start;flex-direction:column}}
+.contact {
+  background: linear-gradient(115deg, #efb847, #ca8521);
+  color: #101114;
+}
+.contact-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+.contact h2 {
+  color: #101114;
+  margin: 0;
+  font-size: clamp(2rem, 3vw, 2.65rem);
+}
+.contact .contact-subtitle {
+  color: #101114;
+  margin: 20px 0 0;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+.contact-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex-shrink: 0;
+  width: 250px;
+}
+.contact .button {
+  padding: 20px 30px;
+  width: 100%;
+}
+.contact-work-button {
+  background: transparent;
+  border: 2px solid #101114;
+  color: #101114;
+}
+.contact-work-button:hover:not(:disabled) {
+  background: #101114;
+  color: #fff;
+}
+.contact-work-button:disabled {
+  cursor: not-allowed;
+  opacity: .7;
+}
+.contact a:focus-visible {
+  outline-color: #101114;
+}
+@media (max-width: 767px) {
+  .contact-inner {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 32px;
+  }
+  .contact-actions {
+    width: min(100%, 320px);
+  }
+}
